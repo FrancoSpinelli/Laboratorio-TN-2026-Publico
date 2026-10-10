@@ -1,0 +1,6 @@
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.tarjeta { width: 300px; }

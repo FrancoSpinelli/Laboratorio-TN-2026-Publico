@@ -1,0 +1,14 @@
+/* Hoja de estilos de la tarjeta de receta */
+
+/* 3. Esta regla no se aplica completa: encontrá el error y corregilo */
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #44465F
+	background-color: #F5F6FB;
+}
+
+/* 4. Títulos (h1 y h2): color, tamaño y alineación */
+
+/* 5. Clase .ingrediente e id #tiempo */
+
+/* 6. Unidades: tamaños en rem y ancho de .receta en % */

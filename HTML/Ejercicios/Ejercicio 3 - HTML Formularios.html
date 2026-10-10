@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contacto</title>
+	</head>
+	<body>
+		<header>
+			<h1>Franco A. Spinelli</h1>
+		</header>
+		<nav>
+			<a href="./Ejercicio 2 - HTML Semántico.html">INICIO</a>
+			<a href="./Ejercicio 3 - HTML Formularios.html">CONTACTO</a>
+		</nav>
+		<main>
+			<section>
+				<h2>Contactame</h2>
+
+				<form action="/contacto" method="post">
+					<label for="nombre">Nombre</label>
+					<input
+						type="text"
+						id="nombre"
+						name="nombre"
+						placeholder="Tu nombre"
+						required
+					/>
+					<br />
+
+					<label for="email">Email</label>
+					<input
+						type="email"
+						id="email"
+						name="email"
+						placeholder="tu@mail.com"
+						required
+					/>
+					<br />
+
+					<label for="asunto">Asunto</label>
+					<select id="asunto" name="asunto">
+						<option value="consulta">Consulta</option>
+						<option value="propuesta">Propuesta de trabajo</option>
+						<option value="otro">Otro</option>
+					</select>
+					<br />
+
+					<label for="mensaje">Mensaje</label>
+					<br />
+					<textarea
+						id="mensaje"
+						name="mensaje"
+						rows="10"
+						cols="40"
+						placeholder="Escribí tu mensaje"
+						required
+					></textarea>
+					<br />
+
+					<input type="checkbox" id="acepto" name="acepto" required />
+					<label for="acepto">Acepto ser contactado/a</label>
+					<br />
+
+					<button type="submit">Enviar</button>
+				</form>
+			</section>
+		</main>
+		<footer>
+			<p>Hecho por Franco Spinelli</p>
+
+			<section>
+				<h3>Ejercicios</h3>
+				<ul>
+					<li><a href="./Ejercicio 1 - HTML Básico.html">Práctica 1</a></li>
+					<li><a href="./Ejercicio 2 - HTML Semántico.html">Práctica 2</a></li>
+					<li>
+						<a href="./Ejercicio 3 - HTML Formularios.html">Práctica 3</a>
+					</li>
+				</ul>
+			</section>
+		</footer>
+	</body>
+</html>

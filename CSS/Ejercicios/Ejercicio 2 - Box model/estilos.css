@@ -1,0 +1,41 @@
+/* ---------- Estilos base: ya están hechos, no hace falta tocarlos ---------- */
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #44465F;
+	padding: 24px;
+}
+
+h1,
+h2 {
+	color: #1E2664;
+}
+
+h2 {
+	font-size: 1.1rem;
+	margin-top: 32px;
+}
+
+/* Todas las cajas tienen fondo y un borde de 2px */
+.caja {
+	background-color: #F0AB10;
+	color: #1E2664;
+	border: 2px solid #1E2664;
+}
+
+/* ---------- Tus reglas van de acá para abajo ---------- */
+
+/* Reto 1: .ancho — que la caja mida 300px de ancho (width) */
+
+/* Reto 2: .relleno — que el texto quede separado 24px del borde (padding) */
+
+/* Reto 3: .separada — que las cajas A y B queden separadas 24px entre sí (margin) */
+
+/* Reto 4: .medida ya tiene width y padding.
+   a) Calculá cuánto mide de ancho en total (no te olvides del border de .caja).
+   b) Comprobalo en DevTools: Inspeccionar → pestaña "Calculado".
+   c) Agregale box-sizing: border-box y fijate cuánto mide ahora. */
+.medida {
+	width: 300px;
+	padding: 20px;
+}

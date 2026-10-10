@@ -1,0 +1,65 @@
+/* ---------- Estilos base: ya están hechos, no hace falta tocarlos ---------- */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #44465F;
+	padding: 24px;
+}
+
+h1,
+h2 {
+	color: #1E2664;
+}
+
+h2 {
+	font-size: 1.1rem;
+	margin-top: 32px;
+}
+
+section,
+.menu {
+	border: 2px dashed #C9CBDE;
+	padding: 12px;
+}
+
+.caja {
+	width: 80px;
+	padding: 16px;
+	background-color: #1E2664;
+	color: white;
+	text-align: center;
+}
+
+.menu {
+	background-color: #1E2664;
+}
+
+.logo,
+.enlaces a {
+	color: white;
+}
+
+.foto {
+	width: 220px;
+	padding: 40px 16px;
+	background-color: #F0AB10;
+	color: #1E2664;
+	text-align: center;
+}
+
+/* ---------- Tus reglas de Flexbox van de acá para abajo ---------- */
+
+/* Reto 1: .fila — las cajas en fila, separadas 16px con gap */
+
+/* Reto 2: .centrado — las cajas en fila y centradas (justify-content) */
+
+/* Reto 3: .menu — logo a la izquierda y enlaces a la derecha, alineados al centro.
+   Ojo: .enlaces también necesita display: flex para ponerlos en fila */
+
+/* Reto 4: .galeria — las fotos en fila; las que no entran bajan (flex-wrap) */
+
+/* Reto 5: .columna — las cajas una debajo de la otra (flex-direction) */

@@ -1,0 +1,9 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.enlaces {
+  display: flex;
+  gap: 16px;
+}

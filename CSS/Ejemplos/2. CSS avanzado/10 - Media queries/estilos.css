@@ -1,0 +1,18 @@
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+/* Laptop: 3 por fila */
+.tarjeta { width: 30%; }
+
+/* Tablet: 2 por fila */
+@media (max-width: 1024px) {
+  .tarjeta { width: 45%; }
+}
+
+/* Celular: 1 por fila */
+@media (max-width: 600px) {
+  .tarjeta { width: 100%; }
+}

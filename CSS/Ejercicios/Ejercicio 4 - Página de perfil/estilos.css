@@ -1,0 +1,17 @@
+/* Hoja de estilos de la página de perfil */
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #44465F;
+	margin: 0;
+}
+
+/* 2. box-sizing: border-box para todos los elementos */
+
+/* 3. Box model en .tarjeta: padding, border y margin */
+
+/* 4. .menu y .enlaces en fila con Flexbox */
+
+/* 5. .tarjetas una al lado de la otra, repartidas con justify-content: space-between, con gap y flex-wrap */
+
+/* 6. Media query: en pantallas de menos de 600px, tarjetas apiladas */

@@ -1,0 +1,16 @@
+# .gitignore del repo público (Laboratorio-TN-2026-Publico).
+# Lo copia Publicar/publicar.sh; se edita acá, en el repo privado.
+
+# Material que todavía no se publica: se marca con el prefijo "privado-".
+# Para publicarlo, sacarle el prefijo en el repo privado y volver a correr el script.
+privado-*
+
+# Material docente: solo para el repo privado
+*.md
+*.pptx
+# …salvo el README del repo público (sale de Publicar/README-publico.md)
+!/README.md
+
+# Basura del sistema y archivos temporales de Office
+.DS_Store
+~$*
