@@ -1,0 +1,18 @@
+/* Estilos base para que las tarjetas se vean como cajas.
+   No son parte del ejemplo: lo que muestra la slide está en estilos.css. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 24px;
+}
+
+.tarjeta {
+  padding: 24px;
+  background-color: #1E2664;
+  color: white;
+  text-align: center;
+}
