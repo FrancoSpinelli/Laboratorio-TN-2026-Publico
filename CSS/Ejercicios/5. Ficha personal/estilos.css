@@ -1,0 +1,15 @@
+/* Hoja de estilos de la ficha personal (la usan ficha.html y contacto.html) */
+
+/* 2. Vinculá esta hoja con <link> desde ficha.html y desde contacto.html */
+
+/* 3. Texto y color: font-family, color y background-color en body; color de h1 y h2; tamaños de letra en rem */
+
+/* 4. box-sizing: border-box para todos los elementos */
+
+/* 5. nav en fila con Flexbox: display: flex, gap y color de los enlaces */
+
+/* 6. main como tarjeta: max-width, margin (auto a los costados la centra), padding y border */
+
+/* 7. Media query: en pantallas de 600px o menos, los enlaces del nav uno debajo del otro */
+
+/* 8. (Opcional) Formulario de contacto.html: inputs, select y textarea con width: 100% y padding */
