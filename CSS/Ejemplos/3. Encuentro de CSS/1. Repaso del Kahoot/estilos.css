@@ -1,0 +1,110 @@
+/* Repaso del Kahoot: un bloque por pregunta, con el mismo número */
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #44465F;
+	background-color: #F5F6FB;
+	margin: 0;
+}
+
+header {
+	background-color: #1E2664;
+	padding: 16px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	gap: 32px;
+	padding: 12px;
+	background-color: #F0AB10;
+}
+
+nav a {
+	color: #1E2664;
+	font-weight: bold;
+}
+
+main {
+	max-width: 700px;
+	margin: 24px auto;
+	padding: 0 16px;
+}
+
+h2 {
+	color: #1E2664;
+	border-bottom: 2px solid #F0AB10;
+}
+
+section {
+	background-color: white;
+	padding: 16px;
+	margin-bottom: 16px;
+}
+
+code {
+	color: #C0392B;
+}
+
+/* 7 y 8. Selector de clase (empieza con punto) y color del texto */
+.destacado {
+	color: #C0392B;
+	font-weight: bold;
+}
+
+/* 9. padding (adentro del borde) y margin (afuera del borde) */
+.caja {
+	border: 2px solid #1E2664;
+	background-color: #E3E4EE;
+}
+
+.con-padding {
+	padding: 24px;
+}
+
+.con-margin {
+	margin: 24px;
+}
+
+/* 10. content-box suma el padding y el borde al width; border-box no */
+.medida {
+	width: 300px;
+	padding: 20px;
+	margin-top: 8px;
+}
+
+.content-box {
+	box-sizing: content-box;
+}
+
+.border-box {
+	box-sizing: border-box;
+}
+
+/* 11. display: flex en el contenedor; los hijos se ponen en fila */
+.fila {
+	display: flex;
+	gap: 16px;
+}
+
+.item {
+	padding: 16px 24px;
+	background-color: #1E2664;
+	color: white;
+}
+
+/* 12. Se aplica con 600px de ancho o menos */
+@media (max-width: 600px) {
+	body {
+		background-color: #F0AB10;
+	}
+
+	.fila {
+		flex-direction: column;
+	}
+}

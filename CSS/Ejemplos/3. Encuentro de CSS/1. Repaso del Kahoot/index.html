@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Repaso del Kahoot</title>
+		<!-- 6. <link> vincula la hoja de estilos externa -->
+		<link rel="stylesheet" href="estilos.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Repaso del Kahoot</h1>
+		</header>
+
+		<!-- 3. <nav> agrupa los enlaces de navegación -->
+		<nav>
+			<a href="#html">HTML</a>
+			<a href="#css">CSS</a>
+		</nav>
+
+		<!-- 2. <main> envuelve el contenido principal (uno solo por página) -->
+		<main>
+			<h2 id="html">HTML</h2>
+
+			<section>
+				<h3>1. El atributo alt</h3>
+				<p>Esta imagen no existe: el navegador muestra el texto del <code>alt</code>.</p>
+				<img src="no-existe.jpg" alt="Foto de perfil de Tu nombre" />
+			</section>
+
+			<section>
+				<h3>2 y 3. main y nav</h3>
+				<p>Todo este contenido está dentro de <code>&lt;main&gt;</code>. Los enlaces de arriba están en un <code>&lt;nav&gt;</code>.</p>
+			</section>
+
+			<section>
+				<h3>4 y 5. label y required</h3>
+				<p>Hacé click en "Email": el cursor va al campo, porque el <code>for</code> coincide con el <code>id</code>. Enviá vacío: <code>required</code> no te deja.</p>
+				<form action="/repaso" method="post">
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" placeholder="tu@mail.com" required />
+					<button type="submit">Enviar</button>
+				</form>
+			</section>
+
+			<h2 id="css">CSS</h2>
+
+			<section>
+				<h3>6. La hoja externa</h3>
+				<p>Todos estos estilos vienen de <code>estilos.css</code>, vinculado con <code>&lt;link&gt;</code> en el <code>&lt;head&gt;</code>.</p>
+			</section>
+
+			<section>
+				<h3>7 y 8. Selector de clase y color</h3>
+				<p>Un párrafo común.</p>
+				<p class="destacado">Un párrafo con <code>class="destacado"</code>: el selector <code>.destacado</code> le cambia el <code>color</code>.</p>
+			</section>
+
+			<section>
+				<h3>9. padding y margin</h3>
+				<div class="caja con-padding">padding: espacio por dentro del borde</div>
+				<div class="caja con-margin">margin: espacio por fuera del borde</div>
+			</section>
+
+			<section>
+				<h3>10. box-sizing</h3>
+				<p>Las dos tienen <code>width: 300px</code> y <code>padding: 20px</code>.</p>
+				<div class="caja medida content-box">content-box: mide 344px</div>
+				<div class="caja medida border-box">border-box: mide 300px</div>
+			</section>
+
+			<section>
+				<h3>11. display: flex va en el contenedor</h3>
+				<div class="fila">
+					<div class="item">1</div>
+					<div class="item">2</div>
+					<div class="item">3</div>
+				</div>
+			</section>
+
+			<section>
+				<h3>12. Media query</h3>
+				<p>Achicá la ventana a 600px o menos: el fondo cambia y la fila de arriba se apila.</p>
+			</section>
+		</main>
+
+		<footer>
+			<p>Laboratorio · Comisión 1.604</p>
+		</footer>
+	</body>
+</html>
